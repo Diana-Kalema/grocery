@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Launch Box</string>
+    <string name="app_jargon">Kalo Laper Ngapain di Tahan</string>
+    <!-- TODO: Remove or change this placeholder text ssss-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+    <string name="RegisterToLogin">Already Have an Account? Login Now
+</string>
+    <string name="LoginToRegister">
+Dont Have an Account? Create Your Account Now</string>
+    <string name="ButtonRegister">Register Now</string>
+    <string name="ButtonLogin">Login Now</string>
+    <string name="ButtonOrder">Order Now</string>
+    <string name="ButtonReOrder">Reorder</string>
+    <string name="ButtonOrderMore">Add Order</string>
+    <string name="ButtonConfirm">Confirm</string>
+    <string name="ButtonReject">Reject Order</string>
+    <string name="ButtonSave">Save</string>
+    <string name="ButtonUpdateStatus">Change Status</string>
+    <string name="ButtonLogOut">Log Out</string>
+    <string name="balance">Balance</string>
+    <string name="IDRCurrency">Rp</string>
+    <string name="TopUpBalance">Top Up</string>
+    <string name="History">Activity</string>
+    <string name="Rewards">Promo</string>
+    <string name="profileMenu">Profile</string>
+    <string name="primeMenu">Prime</string>
+    <string name="cateringMenu">Catering</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="FavouriteMenu">This Weeks Best-Selling Menu</string>
+    <string name="AdminPage">Admin Page</string>
+    <string name="AdminCustomMenu">Set Menu</string>
+    <string name="AdminCustomCombo">Set COmbo</string>
+    <string name="AdminCustomMenuAddMaster">Add New Menu</string>
+    <string name="AdminCustomMenuEditMaster">Change Menu</string>
+    <string name="AdminCustomMenuNameProductMaster">Category Name</string>
+    <string name="AdminCustomMenuNameListProductDetail">Product list</string>
+    <string name="AdminCustomMenuNameListProductDetailName">Product Namek</string>
+    <string name="AdminCustomMenuNameListProductDetailPrice">Product Price </string>
+    <string name="AdminTopUpMenu">Top Up Confirmation </string>
+
+    <string name="AdminCustomMenuAddCombo">Add New Combination</string>
+    <string name="AdminCustomMenuAddComboMaster">Package / Combo Name </string>
+    <string name="AdminCustomMenuNameListCombo">List of Products to Be Saved
+</string>
+    <string name="AdminCustomSetHarga">Set Price Per Box</string>
+    <string name="AdminSetHarga">Price Per Box</string>
+    <string name="AdminCustomSetJam">Set Default Delivery Hours
+</string>
+    <string name="AdminCustomSetJamPagi">Breakfast Batch</string>
+    <string name="AdminCustomSetJamSiang">Lunch Batch</string>
+    <string name="AdminCustomSetJamMalam">Dinner Batch</string>
+
+    <string name="AdminMaintainOrderMenu">Set Order</string>
+
+    <string name="ListOrder">List Order</string>
+    <string name="Total">Total</string>
+
+    <string name="aturPesananFieldName">Name</string>
+    <string name="aturPesananFieldAddress">Address</string>
+    <string name="aturPesananFieldStatus">Status</string>
+    <string name="aturPesananFieldType">Type Order</string>
+    <string name="aturPesananFieldOrderTime">Delivery Time</string>
+    <string name="aturPesananFieldPayment">Payment Method</string>
+
+
+    <string name="cateringNewOrder">New Order</string>
+    <string name="cateringNewOrderUnderLine"><u>New Order</u></string>
+    <string name="cateringListOrder">List Catering</string>
+    <string name="cateringListOrderUnderLine"><u>List Catering</u></string>
+    <string name="cateringDateFrom">Order Starting Date:</string>
+    <string name="cateringDateTo">Orders Until Date:</string>
+    <string name="cateringWorkingHour">Working Hour</string>
+    <string name="cateringTime">Time For Shipping:</string>
+
+    <string name="NominalTopUp">Nominal Top Up
+ </string>
+    <string name="BCABankAccount">BCA : 123456789098</string>
+    <string name="MandiriBankAccount">Mandiri :123456789098</string>
+
+    <string name="OrderPrime">Order From Prime</string>
+    <string name="PrimeMsg">Here are the most picked menu this week</string>
+
+</resources>

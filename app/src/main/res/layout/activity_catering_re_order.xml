@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CateringReOrder"
+        android:background="@drawable/main_background">
+
+    <LinearLayout
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:layout_marginTop="20pt"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pacifico"
+                android:textSize="15pt"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:text="@string/cateringMenu"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pacifico"
+                    android:textSize="10pt"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/ButtonOrderMore"/>
+            <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:id="@+id/listMenuFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="20dp"
+                            android:orientation="vertical"></LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        <View
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1" />
+
+                        <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginRight="10dp"
+                                android:onClick="substractQuantity"
+                                android:src="@drawable/ic_remove_black_24dp" />
+
+                        <EditText
+                                android:id="@+id/quantityOrder"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@drawable/round_edit_text_black"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:text="1" />
+
+                        <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="10dp"
+                                android:onClick="addQuantity"
+                                android:src="@drawable/ic_add_black_24dp" />
+
+                        <View
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="5dp"
+                            android:fontFamily="@font/pacifico"
+                            android:text="@string/cateringDateFrom"
+                            android:textSize="15dp" />
+
+                    <TextView
+                            android:id="@+id/dateCateringFrom"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/round_edit_text_black"
+                            android:clickable="true"
+                            android:onClick="showDatePicker"
+                            android:gravity="center_vertical"
+                            android:fontFamily="@font/pacifico"
+                            android:paddingLeft="10dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="5dp"
+                            android:fontFamily="@font/pacifico"
+                            android:text="@string/cateringDateTo"
+                            android:textSize="15dp" />
+
+                    <TextView
+                            android:id="@+id/dateCateringTo"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/round_edit_text_black"
+                            android:clickable="true"
+                            android:onClick="showDatePicker"
+                            android:gravity="center_vertical"
+                            android:fontFamily="@font/pacifico"
+                            android:paddingLeft="10dp"/>
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="5dp"
+                            android:fontFamily="@font/pacifico"
+                            android:text="@string/cateringTime"
+                            android:textSize="15dp" />
+
+                    <TextView
+                            android:id="@+id/timeCatering"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/round_edit_text_black"
+                            android:clickable="true"
+                            android:onClick="showTimePicker"
+                            android:gravity="center_vertical"
+                            android:fontFamily="@font/pacifico"
+                            android:paddingLeft="10dp"/>
+
+                    <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/round_edit_text_black"
+                            android:onClick="submitOrder"
+                            android:text="@string/ButtonSave" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
